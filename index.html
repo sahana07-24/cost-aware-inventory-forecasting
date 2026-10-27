@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cost-Aware Inventory Forecasting</title>
+  <meta name="description" content="Interactive demo of an MSc Data Science dissertation: cost-aware demand forecasting with a gated LightGBM hybrid. Runs entirely in your browser." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.0/build/stlite.css" />
+  <style>
+    body { margin: 0; background: #ffffff; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    #loading { max-width: 640px; margin: 18vh auto 0; padding: 0 16px; color: #31333f; text-align: center; }
+    #loading h1 { font-size: 1.6rem; margin-bottom: 0.4rem; }
+    #loading p { color: #6b6a65; line-height: 1.5; }
+    .bar { height: 4px; background: #e6e5e0; border-radius: 2px; overflow: hidden; margin: 24px auto 0; max-width: 320px; }
+    .bar::after { content: ""; display: block; height: 100%; width: 40%; background: #2a78d6; animation: slide 1.4s ease-in-out infinite; }
+    @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(250%); } }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <h1>Cost-aware inventory forecasting</h1>
+    <p>Loading Python, LightGBM and the app into your browser. The first visit takes about 30–60 seconds; later visits are faster.
+       Everything runs on your device — no server involved.</p>
+    <div class="bar"></div>
+  </div>
+  <div id="root"></div>
+  <script type="module">
+    import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.0/build/stlite.js";
+
+    const paths = [
+      "app/streamlit_app.py",
+      "app/model_core.py",
+      "app/data/default_scenarios.csv",
+      "src/baselines.py",
+      "src/bootstrap.py",
+      "src/cost_model.py",
+      "src/gated_hybrid.py",
+      "src/real_data.py",
+      "src/synthetic_data.py",
+      "results/01_lgbm_vs_naive_validated.csv",
+      "results/03_comparison_A_and_B_summary.csv",
+      "results/04_real_data_folds_N1500.csv",
+      "results/05_rq3_stockout_risk_summary.csv",
+    ];
+    const files = Object.fromEntries(paths.map((p) => [p, { url: "./" + p }]));
+
+    const root = document.getElementById("root");
+    const observer = new MutationObserver(() => {
+      if (root.querySelector("[data-testid='stApp'], .stApp")) {
+        document.getElementById("loading")?.remove();
+        observer.disconnect();
+      }
+    });
+    observer.observe(root, { childList: true, subtree: true });
+
+    mount(
+      {
+        requirements: ["numpy", "pandas", "scipy", "lightgbm", "plotly"],
+        entrypoint: "app/streamlit_app.py",
+        files,
+        streamlitConfig: { "theme.primaryColor": "#2a78d6", "client.toolbarMode": "viewer" },
+      },
+      root,
+    );
+  </script>
+</body>
+</html>
