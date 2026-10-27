@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw H&M data -- large (hundreds of MB), publicly downloadable from Kaggle,
+# not something to push into a university git remote. README explains how
+# to fetch and place these locally.
+data/hm/*.csv
+
+# Local run logs and editor/OS clutter
+*.log
+.ipynb_checkpoints/
+.DS_Store
+*.duckdb
+.pytest_cache/

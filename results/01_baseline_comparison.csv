@@ -1,0 +1,601 @@
+seed,product,method,cost
+0,product_A,1. Naive mean + safety stock,377.0393096174963
+0,product_A,2. Exp. smoothing + safety margin,70.26549728600659
+0,product_A,3. Naive step-adaptive heuristic,335.29390510690064
+0,product_A,"4. LightGBM adaptive (pure, no hybrid)",123.3712129776874
+0,product_B,1. Naive mean + safety stock,615.2559949594469
+0,product_B,2. Exp. smoothing + safety margin,132.0919388037312
+0,product_B,3. Naive step-adaptive heuristic,472.76860552069894
+0,product_B,"4. LightGBM adaptive (pure, no hybrid)",99.86314359025495
+0,product_C,1. Naive mean + safety stock,251.21524856105154
+0,product_C,2. Exp. smoothing + safety margin,144.70252261094768
+0,product_C,3. Naive step-adaptive heuristic,144.70252261094768
+0,product_C,"4. LightGBM adaptive (pure, no hybrid)",81.29844813583388
+1,product_A,1. Naive mean + safety stock,1041.518520437852
+1,product_A,2. Exp. smoothing + safety margin,621.4557124494418
+1,product_A,3. Naive step-adaptive heuristic,621.4557124494418
+1,product_A,"4. LightGBM adaptive (pure, no hybrid)",1813.7262709375705
+1,product_B,1. Naive mean + safety stock,896.4035172720221
+1,product_B,2. Exp. smoothing + safety margin,647.8011264244954
+1,product_B,3. Naive step-adaptive heuristic,1380.603253321783
+1,product_B,"4. LightGBM adaptive (pure, no hybrid)",847.3224635851444
+1,product_C,1. Naive mean + safety stock,1313.5110838123023
+1,product_C,2. Exp. smoothing + safety margin,1011.7066069030911
+1,product_C,3. Naive step-adaptive heuristic,1011.7066069030911
+1,product_C,"4. LightGBM adaptive (pure, no hybrid)",3002.992988956694
+2,product_A,1. Naive mean + safety stock,1320.889565549413
+2,product_A,2. Exp. smoothing + safety margin,887.8033510969256
+2,product_A,3. Naive step-adaptive heuristic,951.6478917872939
+2,product_A,"4. LightGBM adaptive (pure, no hybrid)",918.9568951436571
+2,product_B,1. Naive mean + safety stock,1112.2019983592284
+2,product_B,2. Exp. smoothing + safety margin,668.0943511808623
+2,product_B,3. Naive step-adaptive heuristic,907.4194129146185
+2,product_B,"4. LightGBM adaptive (pure, no hybrid)",745.9705372157179
+2,product_C,1. Naive mean + safety stock,1693.5707409193865
+2,product_C,2. Exp. smoothing + safety margin,1005.1043883408219
+2,product_C,3. Naive step-adaptive heuristic,1005.1043883408219
+2,product_C,"4. LightGBM adaptive (pure, no hybrid)",1257.8429304607796
+3,product_A,1. Naive mean + safety stock,1019.600766261706
+3,product_A,2. Exp. smoothing + safety margin,1101.999958820174
+3,product_A,3. Naive step-adaptive heuristic,2498.173612354915
+3,product_A,"4. LightGBM adaptive (pure, no hybrid)",818.1800010815979
+3,product_B,1. Naive mean + safety stock,1115.8861468945304
+3,product_B,2. Exp. smoothing + safety margin,1185.8763213082104
+3,product_B,3. Naive step-adaptive heuristic,2209.29196368502
+3,product_B,"4. LightGBM adaptive (pure, no hybrid)",591.9189852363605
+3,product_C,1. Naive mean + safety stock,846.3679803970268
+3,product_C,2. Exp. smoothing + safety margin,1211.6240500385777
+3,product_C,3. Naive step-adaptive heuristic,1936.398019250025
+3,product_C,"4. LightGBM adaptive (pure, no hybrid)",843.6660976846755
+4,product_A,1. Naive mean + safety stock,889.1239687454777
+4,product_A,2. Exp. smoothing + safety margin,350.47165511508797
+4,product_A,3. Naive step-adaptive heuristic,349.4600011507491
+4,product_A,"4. LightGBM adaptive (pure, no hybrid)",203.58006708620528
+4,product_B,1. Naive mean + safety stock,536.5850742021149
+4,product_B,2. Exp. smoothing + safety margin,217.34212667559632
+4,product_B,3. Naive step-adaptive heuristic,1215.5224359840292
+4,product_B,"4. LightGBM adaptive (pure, no hybrid)",59.923588650719324
+4,product_C,1. Naive mean + safety stock,1441.72670802126
+4,product_C,2. Exp. smoothing + safety margin,1197.088065850793
+4,product_C,3. Naive step-adaptive heuristic,1197.088065850793
+4,product_C,"4. LightGBM adaptive (pure, no hybrid)",843.9235038767666
+5,product_A,1. Naive mean + safety stock,1026.1358775442432
+5,product_A,2. Exp. smoothing + safety margin,1380.2326053382435
+5,product_A,3. Naive step-adaptive heuristic,1380.2326053382435
+5,product_A,"4. LightGBM adaptive (pure, no hybrid)",995.8391404122153
+5,product_B,1. Naive mean + safety stock,791.0519814790076
+5,product_B,2. Exp. smoothing + safety margin,1430.0940206373432
+5,product_B,3. Naive step-adaptive heuristic,2362.566742343103
+5,product_B,"4. LightGBM adaptive (pure, no hybrid)",686.645282702975
+5,product_C,1. Naive mean + safety stock,1423.2520176139772
+5,product_C,2. Exp. smoothing + safety margin,1622.086693814621
+5,product_C,3. Naive step-adaptive heuristic,1622.086693814621
+5,product_C,"4. LightGBM adaptive (pure, no hybrid)",1055.4154573482992
+6,product_A,1. Naive mean + safety stock,88.61375877869052
+6,product_A,2. Exp. smoothing + safety margin,76.21202758472309
+6,product_A,3. Naive step-adaptive heuristic,75.3211566612802
+6,product_A,"4. LightGBM adaptive (pure, no hybrid)",615.4515250398127
+6,product_B,1. Naive mean + safety stock,87.85441094145442
+6,product_B,2. Exp. smoothing + safety margin,67.8164333067664
+6,product_B,3. Naive step-adaptive heuristic,389.13686668603816
+6,product_B,"4. LightGBM adaptive (pure, no hybrid)",237.65045969575607
+6,product_C,1. Naive mean + safety stock,146.92391559522162
+6,product_C,2. Exp. smoothing + safety margin,1020.4944635669061
+6,product_C,3. Naive step-adaptive heuristic,1020.4944635669061
+6,product_C,"4. LightGBM adaptive (pure, no hybrid)",1046.1364538885605
+7,product_A,1. Naive mean + safety stock,238.0456939088482
+7,product_A,2. Exp. smoothing + safety margin,1019.1455600893748
+7,product_A,3. Naive step-adaptive heuristic,1253.7338545637706
+7,product_A,"4. LightGBM adaptive (pure, no hybrid)",347.400515946347
+7,product_B,1. Naive mean + safety stock,398.488095568862
+7,product_B,2. Exp. smoothing + safety margin,1181.467153942574
+7,product_B,3. Naive step-adaptive heuristic,2296.909996193323
+7,product_B,"4. LightGBM adaptive (pure, no hybrid)",216.43666731867262
+7,product_C,1. Naive mean + safety stock,131.65317298145763
+7,product_C,2. Exp. smoothing + safety margin,722.6329565128285
+7,product_C,3. Naive step-adaptive heuristic,736.90997243497
+7,product_C,"4. LightGBM adaptive (pure, no hybrid)",385.21269649747734
+8,product_A,1. Naive mean + safety stock,915.2976990877619
+8,product_A,2. Exp. smoothing + safety margin,70.25647167389589
+8,product_A,3. Naive step-adaptive heuristic,226.07194253861377
+8,product_A,"4. LightGBM adaptive (pure, no hybrid)",150.18306996389236
+8,product_B,1. Naive mean + safety stock,605.5525839661998
+8,product_B,2. Exp. smoothing + safety margin,65.7010256543427
+8,product_B,3. Naive step-adaptive heuristic,203.74307031690321
+8,product_B,"4. LightGBM adaptive (pure, no hybrid)",187.74781830717603
+8,product_C,1. Naive mean + safety stock,1421.9872859747384
+8,product_C,2. Exp. smoothing + safety margin,94.70886784797088
+8,product_C,3. Naive step-adaptive heuristic,94.70886784797088
+8,product_C,"4. LightGBM adaptive (pure, no hybrid)",281.00872267059816
+9,product_A,1. Naive mean + safety stock,1051.3843868494548
+9,product_A,2. Exp. smoothing + safety margin,473.25628338915106
+9,product_A,3. Naive step-adaptive heuristic,990.2501668488951
+9,product_A,"4. LightGBM adaptive (pure, no hybrid)",431.50428966842327
+9,product_B,1. Naive mean + safety stock,1001.5513151628381
+9,product_B,2. Exp. smoothing + safety margin,572.5837527776954
+9,product_B,3. Naive step-adaptive heuristic,869.8964725113399
+9,product_B,"4. LightGBM adaptive (pure, no hybrid)",108.49819782888838
+9,product_C,1. Naive mean + safety stock,1186.613496534754
+9,product_C,2. Exp. smoothing + safety margin,379.2720739394405
+9,product_C,3. Naive step-adaptive heuristic,377.945508591966
+9,product_C,"4. LightGBM adaptive (pure, no hybrid)",553.3448843714681
+10,product_A,1. Naive mean + safety stock,615.1614922510327
+10,product_A,2. Exp. smoothing + safety margin,907.8585654466181
+10,product_A,3. Naive step-adaptive heuristic,1853.2810870345345
+10,product_A,"4. LightGBM adaptive (pure, no hybrid)",85.59607997536696
+10,product_B,1. Naive mean + safety stock,627.940137657825
+10,product_B,2. Exp. smoothing + safety margin,981.9720351022976
+10,product_B,3. Naive step-adaptive heuristic,1841.3634735015685
+10,product_B,"4. LightGBM adaptive (pure, no hybrid)",82.35314894098146
+10,product_C,1. Naive mean + safety stock,760.3870383687656
+10,product_C,2. Exp. smoothing + safety margin,925.9809277639874
+10,product_C,3. Naive step-adaptive heuristic,1525.4683223919262
+10,product_C,"4. LightGBM adaptive (pure, no hybrid)",82.82193077513597
+11,product_A,1. Naive mean + safety stock,1404.453156324402
+11,product_A,2. Exp. smoothing + safety margin,1177.8244768115453
+11,product_A,3. Naive step-adaptive heuristic,1177.8244768115453
+11,product_A,"4. LightGBM adaptive (pure, no hybrid)",1219.4504040237848
+11,product_B,1. Naive mean + safety stock,1238.3814560485446
+11,product_B,2. Exp. smoothing + safety margin,1489.9984173412379
+11,product_B,3. Naive step-adaptive heuristic,2567.8933143842073
+11,product_B,"4. LightGBM adaptive (pure, no hybrid)",1194.448558967431
+11,product_C,1. Naive mean + safety stock,1702.2670097349464
+11,product_C,2. Exp. smoothing + safety margin,1561.4286934674185
+11,product_C,3. Naive step-adaptive heuristic,1561.4286934674185
+11,product_C,"4. LightGBM adaptive (pure, no hybrid)",1791.04806431577
+12,product_A,1. Naive mean + safety stock,1146.1753462584745
+12,product_A,2. Exp. smoothing + safety margin,1973.542979298486
+12,product_A,3. Naive step-adaptive heuristic,2638.5991452465296
+12,product_A,"4. LightGBM adaptive (pure, no hybrid)",1974.7157270733962
+12,product_B,1. Naive mean + safety stock,1092.0533133018812
+12,product_B,2. Exp. smoothing + safety margin,1963.0923350652058
+12,product_B,3. Naive step-adaptive heuristic,2963.2266788856987
+12,product_B,"4. LightGBM adaptive (pure, no hybrid)",1202.1475358202833
+12,product_C,1. Naive mean + safety stock,1227.5096136810375
+12,product_C,2. Exp. smoothing + safety margin,2719.9925775492056
+12,product_C,3. Naive step-adaptive heuristic,2719.9925775492056
+12,product_C,"4. LightGBM adaptive (pure, no hybrid)",2555.142623068335
+13,product_A,1. Naive mean + safety stock,496.35459757455635
+13,product_A,2. Exp. smoothing + safety margin,1497.2242616967146
+13,product_A,3. Naive step-adaptive heuristic,1928.524733941398
+13,product_A,"4. LightGBM adaptive (pure, no hybrid)",483.63941040730964
+13,product_B,1. Naive mean + safety stock,437.5154404524916
+13,product_B,2. Exp. smoothing + safety margin,1117.2855108322021
+13,product_B,3. Naive step-adaptive heuristic,1848.301038617565
+13,product_B,"4. LightGBM adaptive (pure, no hybrid)",223.6378451931265
+13,product_C,1. Naive mean + safety stock,749.4367443434676
+13,product_C,2. Exp. smoothing + safety margin,1827.5324257118914
+13,product_C,3. Naive step-adaptive heuristic,1827.5324257118914
+13,product_C,"4. LightGBM adaptive (pure, no hybrid)",895.5913331633169
+14,product_A,1. Naive mean + safety stock,449.11877847730034
+14,product_A,2. Exp. smoothing + safety margin,548.9259572644112
+14,product_A,3. Naive step-adaptive heuristic,548.9259572644112
+14,product_A,"4. LightGBM adaptive (pure, no hybrid)",948.8238216899124
+14,product_B,1. Naive mean + safety stock,494.4716465384908
+14,product_B,2. Exp. smoothing + safety margin,783.7699123549002
+14,product_B,3. Naive step-adaptive heuristic,1167.72120294093
+14,product_B,"4. LightGBM adaptive (pure, no hybrid)",284.3028950693307
+14,product_C,1. Naive mean + safety stock,462.3495515349974
+14,product_C,2. Exp. smoothing + safety margin,886.0661491115226
+14,product_C,3. Naive step-adaptive heuristic,886.0661491115226
+14,product_C,"4. LightGBM adaptive (pure, no hybrid)",1101.4091621746118
+15,product_A,1. Naive mean + safety stock,65.08211139414006
+15,product_A,2. Exp. smoothing + safety margin,54.96780670682172
+15,product_A,3. Naive step-adaptive heuristic,54.96780670682172
+15,product_A,"4. LightGBM adaptive (pure, no hybrid)",68.58126519877132
+15,product_B,1. Naive mean + safety stock,50.21414926616098
+15,product_B,2. Exp. smoothing + safety margin,53.529229325276006
+15,product_B,3. Naive step-adaptive heuristic,273.2291579580721
+15,product_B,"4. LightGBM adaptive (pure, no hybrid)",62.827854680662234
+15,product_C,1. Naive mean + safety stock,281.57845161691876
+15,product_C,2. Exp. smoothing + safety margin,66.75795445811286
+15,product_C,3. Naive step-adaptive heuristic,66.75795445811286
+15,product_C,"4. LightGBM adaptive (pure, no hybrid)",252.95435726603122
+16,product_A,1. Naive mean + safety stock,1093.9018089095111
+16,product_A,2. Exp. smoothing + safety margin,1282.5856114206354
+16,product_A,3. Naive step-adaptive heuristic,1675.650452287789
+16,product_A,"4. LightGBM adaptive (pure, no hybrid)",891.1740933856157
+16,product_B,1. Naive mean + safety stock,1023.6839319520633
+16,product_B,2. Exp. smoothing + safety margin,1192.0552596564348
+16,product_B,3. Naive step-adaptive heuristic,1521.0530408682623
+16,product_B,"4. LightGBM adaptive (pure, no hybrid)",800.4279905206132
+16,product_C,1. Naive mean + safety stock,1410.5015973277757
+16,product_C,2. Exp. smoothing + safety margin,1907.4069228982803
+16,product_C,3. Naive step-adaptive heuristic,1907.4069228982803
+16,product_C,"4. LightGBM adaptive (pure, no hybrid)",871.413792146702
+17,product_A,1. Naive mean + safety stock,749.8738716845694
+17,product_A,2. Exp. smoothing + safety margin,1603.4174542965463
+17,product_A,3. Naive step-adaptive heuristic,2714.177239597385
+17,product_A,"4. LightGBM adaptive (pure, no hybrid)",1451.2521235450572
+17,product_B,1. Naive mean + safety stock,750.1792547911248
+17,product_B,2. Exp. smoothing + safety margin,2164.5677800739622
+17,product_B,3. Naive step-adaptive heuristic,3934.809339233214
+17,product_B,"4. LightGBM adaptive (pure, no hybrid)",1346.0677279328129
+17,product_C,1. Naive mean + safety stock,752.971504763849
+17,product_C,2. Exp. smoothing + safety margin,2095.722598638022
+17,product_C,3. Naive step-adaptive heuristic,2309.7530576280406
+17,product_C,"4. LightGBM adaptive (pure, no hybrid)",2754.642277765299
+18,product_A,1. Naive mean + safety stock,776.2046873842563
+18,product_A,2. Exp. smoothing + safety margin,1122.4465592051508
+18,product_A,3. Naive step-adaptive heuristic,1122.4465592051508
+18,product_A,"4. LightGBM adaptive (pure, no hybrid)",847.2731078035075
+18,product_B,1. Naive mean + safety stock,815.3215263940904
+18,product_B,2. Exp. smoothing + safety margin,1111.092526077018
+18,product_B,3. Naive step-adaptive heuristic,1110.2283881927333
+18,product_B,"4. LightGBM adaptive (pure, no hybrid)",426.04536395420905
+18,product_C,1. Naive mean + safety stock,830.2094441408194
+18,product_C,2. Exp. smoothing + safety margin,1180.996986560049
+18,product_C,3. Naive step-adaptive heuristic,1180.996986560049
+18,product_C,"4. LightGBM adaptive (pure, no hybrid)",619.5382060148423
+19,product_A,1. Naive mean + safety stock,911.2640279787483
+19,product_A,2. Exp. smoothing + safety margin,67.81792958674201
+19,product_A,3. Naive step-adaptive heuristic,345.060404354911
+19,product_A,"4. LightGBM adaptive (pure, no hybrid)",82.11233828631049
+19,product_B,1. Naive mean + safety stock,823.5398927616468
+19,product_B,2. Exp. smoothing + safety margin,109.06717428042906
+19,product_B,3. Naive step-adaptive heuristic,662.1532942809451
+19,product_B,"4. LightGBM adaptive (pure, no hybrid)",112.60332207019043
+19,product_C,1. Naive mean + safety stock,1064.5795962913144
+19,product_C,2. Exp. smoothing + safety margin,80.55670249509497
+19,product_C,3. Naive step-adaptive heuristic,79.21799123990967
+19,product_C,"4. LightGBM adaptive (pure, no hybrid)",148.73310007104553
+20,product_A,1. Naive mean + safety stock,754.5043401676133
+20,product_A,2. Exp. smoothing + safety margin,1019.0048045062392
+20,product_A,3. Naive step-adaptive heuristic,1721.9351536900288
+20,product_A,"4. LightGBM adaptive (pure, no hybrid)",850.538821700555
+20,product_B,1. Naive mean + safety stock,814.8084811108164
+20,product_B,2. Exp. smoothing + safety margin,1074.891067990284
+20,product_B,3. Naive step-adaptive heuristic,2570.236830124627
+20,product_B,"4. LightGBM adaptive (pure, no hybrid)",410.9300740356667
+20,product_C,1. Naive mean + safety stock,572.9996111672625
+20,product_C,2. Exp. smoothing + safety margin,922.0645438797384
+20,product_C,3. Naive step-adaptive heuristic,922.0645438797384
+20,product_C,"4. LightGBM adaptive (pure, no hybrid)",755.0280757993322
+21,product_A,1. Naive mean + safety stock,703.9394190687852
+21,product_A,2. Exp. smoothing + safety margin,650.5049416279004
+21,product_A,3. Naive step-adaptive heuristic,650.5049416279004
+21,product_A,"4. LightGBM adaptive (pure, no hybrid)",1242.5650243531652
+21,product_B,1. Naive mean + safety stock,565.9403676874889
+21,product_B,2. Exp. smoothing + safety margin,566.8250583917803
+21,product_B,3. Naive step-adaptive heuristic,1511.4482299479148
+21,product_B,"4. LightGBM adaptive (pure, no hybrid)",56.21267337223593
+21,product_C,1. Naive mean + safety stock,940.1561092426224
+21,product_C,2. Exp. smoothing + safety margin,192.64322021641374
+21,product_C,3. Naive step-adaptive heuristic,192.64322021641374
+21,product_C,"4. LightGBM adaptive (pure, no hybrid)",398.041224680977
+22,product_A,1. Naive mean + safety stock,2042.1980050063867
+22,product_A,2. Exp. smoothing + safety margin,1232.2427236861479
+22,product_A,3. Naive step-adaptive heuristic,1601.5188707032596
+22,product_A,"4. LightGBM adaptive (pure, no hybrid)",1146.5562109605814
+22,product_B,1. Naive mean + safety stock,1974.2131812912755
+22,product_B,2. Exp. smoothing + safety margin,1437.9760842592173
+22,product_B,3. Naive step-adaptive heuristic,2444.2992763683155
+22,product_B,"4. LightGBM adaptive (pure, no hybrid)",427.63195003360613
+22,product_C,1. Naive mean + safety stock,2138.309888230213
+22,product_C,2. Exp. smoothing + safety margin,1346.4750897087163
+22,product_C,3. Naive step-adaptive heuristic,1342.1511251361912
+22,product_C,"4. LightGBM adaptive (pure, no hybrid)",1217.4561775122459
+23,product_A,1. Naive mean + safety stock,95.22601931584147
+23,product_A,2. Exp. smoothing + safety margin,284.933791900893
+23,product_A,3. Naive step-adaptive heuristic,1066.3726278055049
+23,product_A,"4. LightGBM adaptive (pure, no hybrid)",396.52552686383075
+23,product_B,1. Naive mean + safety stock,77.42335902097712
+23,product_B,2. Exp. smoothing + safety margin,78.5672121889597
+23,product_B,3. Naive step-adaptive heuristic,72.96520791578035
+23,product_B,"4. LightGBM adaptive (pure, no hybrid)",329.92873578214227
+23,product_C,1. Naive mean + safety stock,119.57858272427097
+23,product_C,2. Exp. smoothing + safety margin,490.2886355564244
+23,product_C,3. Naive step-adaptive heuristic,490.2886355564244
+23,product_C,"4. LightGBM adaptive (pure, no hybrid)",1276.4191222409672
+24,product_A,1. Naive mean + safety stock,102.43375097442785
+24,product_A,2. Exp. smoothing + safety margin,447.37497750330266
+24,product_A,3. Naive step-adaptive heuristic,693.1288038113039
+24,product_A,"4. LightGBM adaptive (pure, no hybrid)",213.6317809782316
+24,product_B,1. Naive mean + safety stock,130.14444979202747
+24,product_B,2. Exp. smoothing + safety margin,310.98664252274943
+24,product_B,3. Naive step-adaptive heuristic,724.6249056161134
+24,product_B,"4. LightGBM adaptive (pure, no hybrid)",62.62703024172899
+24,product_C,1. Naive mean + safety stock,151.94510174655912
+24,product_C,2. Exp. smoothing + safety margin,1170.5511706899802
+24,product_C,3. Naive step-adaptive heuristic,1170.5511706899802
+24,product_C,"4. LightGBM adaptive (pure, no hybrid)",1175.7102288962683
+25,product_A,1. Naive mean + safety stock,388.7016491886782
+25,product_A,2. Exp. smoothing + safety margin,1530.391301898908
+25,product_A,3. Naive step-adaptive heuristic,2162.7760346709197
+25,product_A,"4. LightGBM adaptive (pure, no hybrid)",754.1134870810408
+25,product_B,1. Naive mean + safety stock,346.68730250417434
+25,product_B,2. Exp. smoothing + safety margin,1309.818018365574
+25,product_B,3. Naive step-adaptive heuristic,2983.942996765306
+25,product_B,"4. LightGBM adaptive (pure, no hybrid)",453.9099695558662
+25,product_C,1. Naive mean + safety stock,697.9167737680568
+25,product_C,2. Exp. smoothing + safety margin,1196.3798093177802
+25,product_C,3. Naive step-adaptive heuristic,1196.3798093177802
+25,product_C,"4. LightGBM adaptive (pure, no hybrid)",382.19858785225557
+26,product_A,1. Naive mean + safety stock,334.16454811063255
+26,product_A,2. Exp. smoothing + safety margin,141.19771523636362
+26,product_A,3. Naive step-adaptive heuristic,640.661909299395
+26,product_A,"4. LightGBM adaptive (pure, no hybrid)",521.6419317588518
+26,product_B,1. Naive mean + safety stock,435.09460564462404
+26,product_B,2. Exp. smoothing + safety margin,85.3920599249141
+26,product_B,3. Naive step-adaptive heuristic,503.4312372672822
+26,product_B,"4. LightGBM adaptive (pure, no hybrid)",182.16953306326747
+26,product_C,1. Naive mean + safety stock,289.7189061179445
+26,product_C,2. Exp. smoothing + safety margin,187.15161893011165
+26,product_C,3. Naive step-adaptive heuristic,187.15161893011165
+26,product_C,"4. LightGBM adaptive (pure, no hybrid)",84.80768314481354
+27,product_A,1. Naive mean + safety stock,1443.6981157062085
+27,product_A,2. Exp. smoothing + safety margin,1902.8572577188002
+27,product_A,3. Naive step-adaptive heuristic,1901.8314762778734
+27,product_A,"4. LightGBM adaptive (pure, no hybrid)",1493.0025834782468
+27,product_B,1. Naive mean + safety stock,1162.0681367572056
+27,product_B,2. Exp. smoothing + safety margin,1557.654755149106
+27,product_B,3. Naive step-adaptive heuristic,2539.9266887153494
+27,product_B,"4. LightGBM adaptive (pure, no hybrid)",736.6198456837803
+27,product_C,1. Naive mean + safety stock,2007.1576186755592
+27,product_C,2. Exp. smoothing + safety margin,2359.308738793919
+27,product_C,3. Naive step-adaptive heuristic,2359.308738793919
+27,product_C,"4. LightGBM adaptive (pure, no hybrid)",2773.8002171804496
+28,product_A,1. Naive mean + safety stock,84.643587086709
+28,product_A,2. Exp. smoothing + safety margin,145.16337639952343
+28,product_A,3. Naive step-adaptive heuristic,564.8206700306648
+28,product_A,"4. LightGBM adaptive (pure, no hybrid)",60.32211102068281
+28,product_B,1. Naive mean + safety stock,63.19149095591039
+28,product_B,2. Exp. smoothing + safety margin,118.40691112380965
+28,product_B,3. Naive step-adaptive heuristic,459.8522358502709
+28,product_B,"4. LightGBM adaptive (pure, no hybrid)",67.51500873495968
+28,product_C,1. Naive mean + safety stock,118.02093299868991
+28,product_C,2. Exp. smoothing + safety margin,118.6618580978244
+28,product_C,3. Naive step-adaptive heuristic,306.62364761401847
+28,product_C,"4. LightGBM adaptive (pure, no hybrid)",78.0894319116842
+29,product_A,1. Naive mean + safety stock,781.4956581402231
+29,product_A,2. Exp. smoothing + safety margin,2564.961098750462
+29,product_A,3. Naive step-adaptive heuristic,3574.867143523361
+29,product_A,"4. LightGBM adaptive (pure, no hybrid)",1123.2721673472583
+29,product_B,1. Naive mean + safety stock,782.8798010642187
+29,product_B,2. Exp. smoothing + safety margin,1243.129727596795
+29,product_B,3. Naive step-adaptive heuristic,2530.205401123004
+29,product_B,"4. LightGBM adaptive (pure, no hybrid)",913.211631391575
+29,product_C,1. Naive mean + safety stock,862.9690211007972
+29,product_C,2. Exp. smoothing + safety margin,2750.835455070684
+29,product_C,3. Naive step-adaptive heuristic,3612.0121072529682
+29,product_C,"4. LightGBM adaptive (pure, no hybrid)",888.1079699435606
+30,product_A,1. Naive mean + safety stock,610.1007640138023
+30,product_A,2. Exp. smoothing + safety margin,1572.1166039037898
+30,product_A,3. Naive step-adaptive heuristic,2351.4743046413414
+30,product_A,"4. LightGBM adaptive (pure, no hybrid)",1133.1665029863168
+30,product_B,1. Naive mean + safety stock,644.8575548536002
+30,product_B,2. Exp. smoothing + safety margin,1682.258545867618
+30,product_B,3. Naive step-adaptive heuristic,3270.9383108004686
+30,product_B,"4. LightGBM adaptive (pure, no hybrid)",404.7461667983381
+30,product_C,1. Naive mean + safety stock,670.9488584915866
+30,product_C,2. Exp. smoothing + safety margin,1486.7212714696557
+30,product_C,3. Naive step-adaptive heuristic,1486.7212714696557
+30,product_C,"4. LightGBM adaptive (pure, no hybrid)",1468.7523737850909
+31,product_A,1. Naive mean + safety stock,1234.7848850055839
+31,product_A,2. Exp. smoothing + safety margin,1017.0508961389726
+31,product_A,3. Naive step-adaptive heuristic,1391.2734527788948
+31,product_A,"4. LightGBM adaptive (pure, no hybrid)",1632.2902782525484
+31,product_B,1. Naive mean + safety stock,1037.0532176677166
+31,product_B,2. Exp. smoothing + safety margin,886.3705646993701
+31,product_B,3. Naive step-adaptive heuristic,1366.5566162156645
+31,product_B,"4. LightGBM adaptive (pure, no hybrid)",1095.228323829223
+31,product_C,1. Naive mean + safety stock,1575.6607313281684
+31,product_C,2. Exp. smoothing + safety margin,1358.1015181231319
+31,product_C,3. Naive step-adaptive heuristic,1836.1838575689917
+31,product_C,"4. LightGBM adaptive (pure, no hybrid)",3511.0759623687163
+32,product_A,1. Naive mean + safety stock,217.47797269034234
+32,product_A,2. Exp. smoothing + safety margin,886.4844207241767
+32,product_A,3. Naive step-adaptive heuristic,886.4844207241767
+32,product_A,"4. LightGBM adaptive (pure, no hybrid)",344.7287917206305
+32,product_B,1. Naive mean + safety stock,299.1596757465419
+32,product_B,2. Exp. smoothing + safety margin,709.5946600721983
+32,product_B,3. Naive step-adaptive heuristic,1281.2064594580845
+32,product_B,"4. LightGBM adaptive (pure, no hybrid)",56.40785754296622
+32,product_C,1. Naive mean + safety stock,102.51063831920717
+32,product_C,2. Exp. smoothing + safety margin,767.884456141767
+32,product_C,3. Naive step-adaptive heuristic,767.884456141767
+32,product_C,"4. LightGBM adaptive (pure, no hybrid)",1119.0925569794297
+33,product_A,1. Naive mean + safety stock,677.2982926114564
+33,product_A,2. Exp. smoothing + safety margin,1275.8154272903198
+33,product_A,3. Naive step-adaptive heuristic,1745.5675330023341
+33,product_A,"4. LightGBM adaptive (pure, no hybrid)",726.451225441927
+33,product_B,1. Naive mean + safety stock,804.035862304807
+33,product_B,2. Exp. smoothing + safety margin,2140.122614410862
+33,product_B,3. Naive step-adaptive heuristic,4105.666208351221
+33,product_B,"4. LightGBM adaptive (pure, no hybrid)",444.78880516203924
+33,product_C,1. Naive mean + safety stock,670.4953331906671
+33,product_C,2. Exp. smoothing + safety margin,1158.1758585097532
+33,product_C,3. Naive step-adaptive heuristic,1158.1758585097532
+33,product_C,"4. LightGBM adaptive (pure, no hybrid)",926.3917186730919
+34,product_A,1. Naive mean + safety stock,1469.6766605241316
+34,product_A,2. Exp. smoothing + safety margin,4400.676028523749
+34,product_A,3. Naive step-adaptive heuristic,4400.676028523749
+34,product_A,"4. LightGBM adaptive (pure, no hybrid)",676.2465182880783
+34,product_B,1. Naive mean + safety stock,1336.524483929636
+34,product_B,2. Exp. smoothing + safety margin,4438.782362584914
+34,product_B,3. Naive step-adaptive heuristic,5116.160281422804
+34,product_B,"4. LightGBM adaptive (pure, no hybrid)",499.1265209026679
+34,product_C,1. Naive mean + safety stock,1791.272221309141
+34,product_C,2. Exp. smoothing + safety margin,3967.482883357464
+34,product_C,3. Naive step-adaptive heuristic,3967.482883357464
+34,product_C,"4. LightGBM adaptive (pure, no hybrid)",729.6004554999422
+35,product_A,1. Naive mean + safety stock,100.38574582448629
+35,product_A,2. Exp. smoothing + safety margin,1189.0959178418723
+35,product_A,3. Naive step-adaptive heuristic,1189.0959178418723
+35,product_A,"4. LightGBM adaptive (pure, no hybrid)",124.89947831300648
+35,product_B,1. Naive mean + safety stock,222.45550300745506
+35,product_B,2. Exp. smoothing + safety margin,1221.14872795952
+35,product_B,3. Naive step-adaptive heuristic,1396.7200626583797
+35,product_B,"4. LightGBM adaptive (pure, no hybrid)",217.89515698552364
+35,product_C,1. Naive mean + safety stock,129.57922167857845
+35,product_C,2. Exp. smoothing + safety margin,1307.8109633634672
+35,product_C,3. Naive step-adaptive heuristic,1307.8109633634672
+35,product_C,"4. LightGBM adaptive (pure, no hybrid)",497.65997563254825
+36,product_A,1. Naive mean + safety stock,889.432589399278
+36,product_A,2. Exp. smoothing + safety margin,759.3960461868454
+36,product_A,3. Naive step-adaptive heuristic,758.4959943494903
+36,product_A,"4. LightGBM adaptive (pure, no hybrid)",1116.9248801806964
+36,product_B,1. Naive mean + safety stock,772.0187394155307
+36,product_B,2. Exp. smoothing + safety margin,894.8155689361304
+36,product_B,3. Naive step-adaptive heuristic,1606.0070365569993
+36,product_B,"4. LightGBM adaptive (pure, no hybrid)",808.8537668488027
+36,product_C,1. Naive mean + safety stock,1129.9663449658392
+36,product_C,2. Exp. smoothing + safety margin,515.4407707254574
+36,product_C,3. Naive step-adaptive heuristic,515.4407707254574
+36,product_C,"4. LightGBM adaptive (pure, no hybrid)",1326.7533777969486
+37,product_A,1. Naive mean + safety stock,457.64214163799085
+37,product_A,2. Exp. smoothing + safety margin,726.7005804144811
+37,product_A,3. Naive step-adaptive heuristic,1954.0836425716652
+37,product_A,"4. LightGBM adaptive (pure, no hybrid)",92.28673574200383
+37,product_B,1. Naive mean + safety stock,648.5806518990937
+37,product_B,2. Exp. smoothing + safety margin,186.17496817960486
+37,product_B,3. Naive step-adaptive heuristic,553.3100401872044
+37,product_B,"4. LightGBM adaptive (pure, no hybrid)",296.21452401837917
+37,product_C,1. Naive mean + safety stock,217.73880172116156
+37,product_C,2. Exp. smoothing + safety margin,699.0192909335565
+37,product_C,3. Naive step-adaptive heuristic,699.0192909335565
+37,product_C,"4. LightGBM adaptive (pure, no hybrid)",575.8544917282725
+38,product_A,1. Naive mean + safety stock,493.06199837688195
+38,product_A,2. Exp. smoothing + safety margin,109.50663127877377
+38,product_A,3. Naive step-adaptive heuristic,108.54180826165619
+38,product_A,"4. LightGBM adaptive (pure, no hybrid)",1090.2647229572353
+38,product_B,1. Naive mean + safety stock,431.8233449724282
+38,product_B,2. Exp. smoothing + safety margin,129.6705282105172
+38,product_B,3. Naive step-adaptive heuristic,938.2232631632071
+38,product_B,"4. LightGBM adaptive (pure, no hybrid)",648.6778385078089
+38,product_C,1. Naive mean + safety stock,765.3288620088435
+38,product_C,2. Exp. smoothing + safety margin,141.15621545849075
+38,product_C,3. Naive step-adaptive heuristic,141.15621545849075
+38,product_C,"4. LightGBM adaptive (pure, no hybrid)",801.9550514847155
+39,product_A,1. Naive mean + safety stock,673.4328159506875
+39,product_A,2. Exp. smoothing + safety margin,1659.0520752577952
+39,product_A,3. Naive step-adaptive heuristic,1870.936326391421
+39,product_A,"4. LightGBM adaptive (pure, no hybrid)",612.8221270603075
+39,product_B,1. Naive mean + safety stock,669.1418103416033
+39,product_B,2. Exp. smoothing + safety margin,1436.516961216426
+39,product_B,3. Naive step-adaptive heuristic,1864.777336303774
+39,product_B,"4. LightGBM adaptive (pure, no hybrid)",420.3694423284296
+39,product_C,1. Naive mean + safety stock,669.0126791769536
+39,product_C,2. Exp. smoothing + safety margin,2130.732990444721
+39,product_C,3. Naive step-adaptive heuristic,2130.732990444721
+39,product_C,"4. LightGBM adaptive (pure, no hybrid)",1049.107523454595
+40,product_A,1. Naive mean + safety stock,83.81123806415852
+40,product_A,2. Exp. smoothing + safety margin,78.05426994122494
+40,product_A,3. Naive step-adaptive heuristic,78.05426994122494
+40,product_A,"4. LightGBM adaptive (pure, no hybrid)",74.72576457267232
+40,product_B,1. Naive mean + safety stock,89.82875154770105
+40,product_B,2. Exp. smoothing + safety margin,64.89723215521495
+40,product_B,3. Naive step-adaptive heuristic,58.93512919715396
+40,product_B,"4. LightGBM adaptive (pure, no hybrid)",74.81272953675715
+40,product_C,1. Naive mean + safety stock,102.03202617131969
+40,product_C,2. Exp. smoothing + safety margin,120.46890255003933
+40,product_C,3. Naive step-adaptive heuristic,120.46890255003933
+40,product_C,"4. LightGBM adaptive (pure, no hybrid)",85.33038491100375
+41,product_A,1. Naive mean + safety stock,402.20322219176677
+41,product_A,2. Exp. smoothing + safety margin,2661.1832881859323
+41,product_A,3. Naive step-adaptive heuristic,3647.4601994089367
+41,product_A,"4. LightGBM adaptive (pure, no hybrid)",64.37103775668317
+41,product_B,1. Naive mean + safety stock,487.44228341004145
+41,product_B,2. Exp. smoothing + safety margin,1873.7414261962515
+41,product_B,3. Naive step-adaptive heuristic,4401.43387468613
+41,product_B,"4. LightGBM adaptive (pure, no hybrid)",59.81240837942535
+41,product_C,1. Naive mean + safety stock,457.6806546709373
+41,product_C,2. Exp. smoothing + safety margin,1625.64179830256
+41,product_C,3. Naive step-adaptive heuristic,1625.64179830256
+41,product_C,"4. LightGBM adaptive (pure, no hybrid)",156.13071346440125
+42,product_A,1. Naive mean + safety stock,121.19228485173296
+42,product_A,2. Exp. smoothing + safety margin,74.67668244296024
+42,product_A,3. Naive step-adaptive heuristic,288.99288788286526
+42,product_A,"4. LightGBM adaptive (pure, no hybrid)",72.50660011481912
+42,product_B,1. Naive mean + safety stock,70.41444538567372
+42,product_B,2. Exp. smoothing + safety margin,196.8491178123945
+42,product_B,3. Naive step-adaptive heuristic,1078.3354274036315
+42,product_B,"4. LightGBM adaptive (pure, no hybrid)",63.47712032908193
+42,product_C,1. Naive mean + safety stock,441.82212855598925
+42,product_C,2. Exp. smoothing + safety margin,293.4878780402035
+42,product_C,3. Naive step-adaptive heuristic,291.1460594063378
+42,product_C,"4. LightGBM adaptive (pure, no hybrid)",84.06913224590686
+43,product_A,1. Naive mean + safety stock,499.1883547915782
+43,product_A,2. Exp. smoothing + safety margin,70.72295831818673
+43,product_A,3. Naive step-adaptive heuristic,66.56565655864655
+43,product_A,"4. LightGBM adaptive (pure, no hybrid)",70.30976512036449
+43,product_B,1. Naive mean + safety stock,550.25192455649
+43,product_B,2. Exp. smoothing + safety margin,1392.6949846550617
+43,product_B,3. Naive step-adaptive heuristic,3995.697578257456
+43,product_B,"4. LightGBM adaptive (pure, no hybrid)",81.11336304845236
+43,product_C,1. Naive mean + safety stock,410.532571420424
+43,product_C,2. Exp. smoothing + safety margin,93.13910553894848
+43,product_C,3. Naive step-adaptive heuristic,93.13910553894848
+43,product_C,"4. LightGBM adaptive (pure, no hybrid)",83.5480888274361
+44,product_A,1. Naive mean + safety stock,693.4700515755333
+44,product_A,2. Exp. smoothing + safety margin,922.7900452560033
+44,product_A,3. Naive step-adaptive heuristic,1409.1573828126673
+44,product_A,"4. LightGBM adaptive (pure, no hybrid)",522.8489541157435
+44,product_B,1. Naive mean + safety stock,645.4527280970121
+44,product_B,2. Exp. smoothing + safety margin,852.3939270127056
+44,product_B,3. Naive step-adaptive heuristic,1298.3371520733594
+44,product_B,"4. LightGBM adaptive (pure, no hybrid)",331.2153077171194
+44,product_C,1. Naive mean + safety stock,787.6579132153286
+44,product_C,2. Exp. smoothing + safety margin,732.7872336319177
+44,product_C,3. Naive step-adaptive heuristic,918.6576605724572
+44,product_C,"4. LightGBM adaptive (pure, no hybrid)",755.8082699672284
+45,product_A,1. Naive mean + safety stock,82.0097769962783
+45,product_A,2. Exp. smoothing + safety margin,82.98872373008167
+45,product_A,3. Naive step-adaptive heuristic,552.9693394989393
+45,product_A,"4. LightGBM adaptive (pure, no hybrid)",190.3149145744351
+45,product_B,1. Naive mean + safety stock,159.89317161378392
+45,product_B,2. Exp. smoothing + safety margin,77.3438113899996
+45,product_B,3. Naive step-adaptive heuristic,173.1827159476487
+45,product_B,"4. LightGBM adaptive (pure, no hybrid)",78.04251815312051
+45,product_C,1. Naive mean + safety stock,104.24965806926305
+45,product_C,2. Exp. smoothing + safety margin,194.8290995135648
+45,product_C,3. Naive step-adaptive heuristic,194.8290995135648
+45,product_C,"4. LightGBM adaptive (pure, no hybrid)",673.1098781695657
+46,product_A,1. Naive mean + safety stock,126.65304773754767
+46,product_A,2. Exp. smoothing + safety margin,87.29187102043463
+46,product_A,3. Naive step-adaptive heuristic,263.774995487119
+46,product_A,"4. LightGBM adaptive (pure, no hybrid)",82.70164021094463
+46,product_B,1. Naive mean + safety stock,252.3268651710299
+46,product_B,2. Exp. smoothing + safety margin,61.302163625305056
+46,product_B,3. Naive step-adaptive heuristic,46.71622634402008
+46,product_B,"4. LightGBM adaptive (pure, no hybrid)",188.46798994455088
+46,product_C,1. Naive mean + safety stock,111.42532496080315
+46,product_C,2. Exp. smoothing + safety margin,92.24378966003324
+46,product_C,3. Naive step-adaptive heuristic,92.24378966003324
+46,product_C,"4. LightGBM adaptive (pure, no hybrid)",220.4211072326649
+47,product_A,1. Naive mean + safety stock,715.4941514716813
+47,product_A,2. Exp. smoothing + safety margin,395.211817001773
+47,product_A,3. Naive step-adaptive heuristic,1275.960534276448
+47,product_A,"4. LightGBM adaptive (pure, no hybrid)",73.01445716953502
+47,product_B,1. Naive mean + safety stock,531.5549448935819
+47,product_B,2. Exp. smoothing + safety margin,442.84051182087273
+47,product_B,3. Naive step-adaptive heuristic,1802.998017375716
+47,product_B,"4. LightGBM adaptive (pure, no hybrid)",78.34515224037064
+47,product_C,1. Naive mean + safety stock,1134.9288453268512
+47,product_C,2. Exp. smoothing + safety margin,297.5315244142152
+47,product_C,3. Naive step-adaptive heuristic,297.5315244142152
+47,product_C,"4. LightGBM adaptive (pure, no hybrid)",113.47431965080341
+48,product_A,1. Naive mean + safety stock,1529.3628350627766
+48,product_A,2. Exp. smoothing + safety margin,1729.825481676679
+48,product_A,3. Naive step-adaptive heuristic,1729.825481676679
+48,product_A,"4. LightGBM adaptive (pure, no hybrid)",626.7524966130836
+48,product_B,1. Naive mean + safety stock,1229.0028168298668
+48,product_B,2. Exp. smoothing + safety margin,7322.504798201931
+48,product_B,3. Naive step-adaptive heuristic,10845.12731558748
+48,product_B,"4. LightGBM adaptive (pure, no hybrid)",576.421904723505
+48,product_C,1. Naive mean + safety stock,1909.8258710375667
+48,product_C,2. Exp. smoothing + safety margin,2195.343897330584
+48,product_C,3. Naive step-adaptive heuristic,2195.343897330584
+48,product_C,"4. LightGBM adaptive (pure, no hybrid)",871.8452611749316
+49,product_A,1. Naive mean + safety stock,250.59105512422988
+49,product_A,2. Exp. smoothing + safety margin,1066.5953702416668
+49,product_A,3. Naive step-adaptive heuristic,1066.5953702416668
+49,product_A,"4. LightGBM adaptive (pure, no hybrid)",1705.0024167880433
+49,product_B,1. Naive mean + safety stock,206.60037267662554
+49,product_B,2. Exp. smoothing + safety margin,668.7358803292055
+49,product_B,3. Naive step-adaptive heuristic,1196.7822327051956
+49,product_B,"4. LightGBM adaptive (pure, no hybrid)",761.8415837163636
+49,product_C,1. Naive mean + safety stock,350.024351351411
+49,product_C,2. Exp. smoothing + safety margin,1015.5900414960929
+49,product_C,3. Naive step-adaptive heuristic,1015.5900414960929
+49,product_C,"4. LightGBM adaptive (pure, no hybrid)",2282.0408447952113

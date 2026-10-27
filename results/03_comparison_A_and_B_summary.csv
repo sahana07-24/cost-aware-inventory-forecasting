@@ -1,0 +1,4 @@
+product,comparison_A_mean,comparison_A_ci,comparison_A_n,comparison_A_significant,comparison_B_mean,comparison_B_ci,comparison_B_n,comparison_B_significant,comparison_C_mean,comparison_C_ci,comparison_C_n,comparison_C_significant
+product_A,18.571568269508795,"[+14.71%, +22.07%]",400,True,0.9661407820310459,"[-0.20%, +2.06%]",600,False,93.1935007971098,"[+92.65%, +93.74%]",400,True
+product_B,21.37348669432751,"[+18.25%, +24.47%]",400,True,4.889134714464764,"[+3.65%, +6.20%]",600,True,91.94114168111665,"[+91.31%, +92.58%]",400,True
+product_C,18.876955312028173,"[+15.90%, +21.88%]",400,True,0.4113013407175806,"[-1.01%, +1.49%]",600,False,93.66555079630274,"[+93.14%, +94.18%]",400,True
